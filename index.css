@@ -1,0 +1,343 @@
+/* Coolors Exported Palette - https://coolors.co/454ade-1b1f3b */
+/* CSS HEX */
+/* CSS HSL */
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+nav > .logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 15vw;
+}
+
+nav > .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55vw;
+}
+
+.nav-items {
+  position: relative;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav > a {
+  font-size: 2rem;
+  margin: 2.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.nav > a :hover {
+  text-decoration: underline;
+}
+
+#start {
+  position: relative;
+  margin: 4rem;
+  height: calc(100vh - 22.5vh);
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.intro > .content {
+  width: 50vw;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.intro > .social-icons {
+  width: 50vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.about-me {
+  margin: 1rem 0rem;
+}
+
+.target-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.target-buttons :nth-child(1) {
+  margin-right: 1.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: white;
+  color: #454ade;
+  border: 2px #454ade solid;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+}
+
+.btn:hover {
+  background-color: #454ade;
+  color: white;
+}
+
+.intro-text {
+  width: 35vw;
+}
+
+.intro-text h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.intro-text p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.social-icons {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-icons #list-styles {
+  position: fixed;
+}
+
+.social-icons #list-styles :nth-child(1) {
+  margin-bottom: .5rem;
+}
+
+.social-icons #list-styles li {
+  list-style: none;
+}
+
+.social-icons #list-styles li a img {
+  height: 50px;
+  width: 50px;
+}
+
+#resume {
+  position: relative;
+  background: #454ade !important;
+  height: calc(100vh - 22.5vh);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-1 {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-2 {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-1 :hover, .container-2 :hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+}
+
+.container-1 :hover .link, .container-2 :hover .link {
+  display: contents;
+}
+
+.pdf {
+  background-image: url("/Side projects/Portfolio_website/Wireframe.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio, .skills {
+  background-image: url("/Side projects/Portfolio_website/Wireframe.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: .1rem;
+  height: 150px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pdf, .portfolio, .skills {
+  z-index: 1;
+}
+
+.pdf a, .portfolio a, .skills a {
+  text-decoration: none;
+}
+
+.link {
+  cursor: pointer;
+  background-color: white;
+  color: white;
+  border: 2px white solid;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  display: none;
+}
+
+#contact {
+  position: relative;
+  background: white;
+  height: calc(100vh - 20.5vh);
+}
+
+/*
+@media (min-width: 306px){
+*{
+font-size: 100%;
+}
+nav{
+
+}
+.nav{
+    >a{
+        font-size: 100%;
+        margin: 1rem;
+    }
+}
+.logo{
+    img{
+    height: 100%;
+    width: 100%;
+    }
+}
+.intro-text{
+    h1{
+        font-size: 100%;
+    }
+    p{
+        font-size: 100%;
+    }
+}
+.social-icons{
+    >img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.target-buttons{
+    :nth-child(1){
+        margin-right: 0.25rem;
+    }
+}
+.btn{
+    font-size: 0.65rem;
+    padding: .25rem .5rem;
+}
+}
+*/
+/*# sourceMappingURL=index.css.map */

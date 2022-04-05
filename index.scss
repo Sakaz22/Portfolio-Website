@@ -1,0 +1,239 @@
+@import 'palette';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+nav{
+    display: flex;
+    position: relative;
+    >.logo{
+        justify-content: flex-start;
+        width: 15vw;
+    }
+    >.nav{
+        justify-content: center;
+        width: 55vw;
+    }
+}
+.nav-items{
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    >a{
+        font-size: 2rem;
+        margin: 2.5rem;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        :hover{
+            text-decoration: underline;
+        }
+    }
+}
+#start{
+    position: relative;
+    margin:4rem;
+    height: calc(100vh - 22.5vh);
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.intro{
+    display: flex;
+    position: relative;
+    >.content{
+        width: 50vw;
+        justify-content: flex-start;
+        position: relative;
+    }
+    >.social-icons{
+        width: 50vw;
+        justify-content: flex-end;
+        position: relative;
+    }
+}
+.about-me{
+    margin: 1rem 0rem;
+}
+.target-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    :nth-child(1){
+        margin-right: 1.5rem;
+    }
+}
+.btn{
+    cursor: pointer;
+    background-color: white;
+    color: $iris;
+    border: 2px $iris solid;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+.btn:hover{
+    background-color: $iris;
+    color: white;
+}
+.intro-text{
+    width:35vw;
+    h1{
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    p{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+.social-icons{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    #list-styles{
+        position: fixed;
+        :nth-child(1){
+            margin-bottom: .5rem;
+        }
+        li{
+            list-style: none;
+            a{
+                img{
+                    height: 50px;
+                    width:50px;
+                }
+            }
+        }
+    }
+}
+
+#resume{
+    position: relative;
+    background: $iris !important;
+    height: calc(100vh - 22.5vh);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-1, .container-2{
+    :hover{
+        background:linear-gradient(rgba(0, 0, 0, 0.5));
+            .link{
+                display: contents;
+            }
+    }
+}
+.pdf{
+    background-image: url("/Side projects/Portfolio_website/Wireframe.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio, .skills{
+    background-image: url("/Side projects/Portfolio_website/Wireframe.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: .1rem;
+    height:150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pdf, .portfolio, .skills{
+    z-index: 1;
+    a{
+        text-decoration: none;
+    }
+}
+.link{
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    border: 2px white solid;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    display: none;
+}
+#contact{
+    position: relative;
+    background: white;
+    height: calc(100vh - 20.5vh);
+}
+
+
+
+/*
+@media (min-width: 306px){
+*{
+font-size: 100%;
+}
+nav{
+
+}
+.nav{
+    >a{
+        font-size: 100%;
+        margin: 1rem;
+    }
+}
+.logo{
+    img{
+    height: 100%;
+    width: 100%;
+    }
+}
+.intro-text{
+    h1{
+        font-size: 100%;
+    }
+    p{
+        font-size: 100%;
+    }
+}
+.social-icons{
+    >img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.target-buttons{
+    :nth-child(1){
+        margin-right: 0.25rem;
+    }
+}
+.btn{
+    font-size: 0.65rem;
+    padding: .25rem .5rem;
+}
+}
+*/
